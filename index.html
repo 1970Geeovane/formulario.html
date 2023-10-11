@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Fomulário HTML</h1>
+    <form action="">
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome" value="nome">
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" value="email">
+        <br>
+        <br>
+        <label for="senha">Senha:</label>
+        <input type="password" name="senha" id="senha" value="senha">
+        <label for="telefone">Telefone:</label>
+        <input type="tel" name="telefone" id="telefone" value="telefone">
+        <section>
+            <p>Nacionalidade:</p>
+            <input type="radio" name="nacionalidade" id="Brasil" value="Brasil">
+            <label for="nacionalidade">Brasileiro(a):</label>
+            <input type="radio" name="nacionalidade" id="outros" value="outros">
+            <label for="nacionalidade">Estrangeiro(a)</label>
+        </section>
+        <section>
+            <p>Meio de Transporete:</p>
+            <input type="checkbox" name="meio de transporte" id="bicicleta" value="bicicleta">
+            <label for="bicicleta">Bicicleta</label>
+            <input type="checkbox" name="meio de transporte" id="carro" value="carro">
+            <label for="carro">Carro</label>
+            <input type="checkbox" name="meio de transporte" id="onibus" value="onibus">
+            <label for="onibus">Ônibus</label>
+        </section>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
