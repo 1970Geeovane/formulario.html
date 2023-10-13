@@ -13,3 +13,7 @@ p{
 section{
     background-color:antiquewhite;
 }
+h1{
+    display: flex;
+    justify-content: center;
+}
